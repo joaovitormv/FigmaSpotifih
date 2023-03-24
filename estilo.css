@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    color: white;
+    font-family: 'Inter', sans-serif;
+
+}
+
+:root{
+    --primary: #23C146;
+    --black: #000;
+}
+
+
+body{
+    background-color: #111010;
+}
+header{
+    border-bottom: 0.1rem solid var(--black);
+    display: flex;
+    height: 2.75rem;
+    background-color: #23C146;
+
+}
+
+
+header picture{
+    margin-left: 0.5rem;
+    padding: 0.5rem;
+}
+
+header picture img{
+    height: 100%;
+}
+
+
+header nav{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: right;  
+}
+
+header ul img{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
