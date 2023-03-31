@@ -12,12 +12,27 @@ header picture input#menu{
 
 header picture ul{
     display:none;
-    background-color: var(--primary);
+    position: fixed;
+    background-color: black;
+    border-style: groove;
+    margin-left: 0rem;
+    padding: 2rem;
+    z-index: 5;
+    list-style: none;
 }
 
 header picture ul li{
     text-align: left;
+    margin-bottom: 5rem;
 }
+
+header picture ul p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 8rem;
+    color: #4E4E4E;
+}
+
 
 header picture label[for="menu"]{
     display:flex;
@@ -55,4 +70,28 @@ header picture label[for="menu"] div.menu-hamburguer span.hamburguer:before{
 
 header picture label[for="menu"] div.menu-hamburguer span.hamburguer:after{
     bottom: -10px;
+}
+
+header picture input:checked ~ ul{
+    display: block;
+    animation: fade-in 0.5s;
+}
+
+
+header picture input:checked ~ label{for="menu"}div.menu-hamburguer span.hamburguer:before{
+    top: 0px;
+}
+
+header picture input:checked ~ label{for="menu"}div.menu-hamburguer span.hamburguer:after{
+    bottom: 0px;
+}
+
+
+@keyframes fade-in{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
