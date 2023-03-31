@@ -4,48 +4,160 @@
     padding: 0;
     outline: 0;
     color: white;
-    font-family: 'Inter', sans-serif;
-
-}
-
-:root{
+    font-family: 'Montserrat';
+ 
+ 
+ }
+ 
+ 
+ :root{
     --primary: #23C146;
     --black: #000;
-}
-
-
-body{
+ }
+ 
+ 
+ 
+ 
+ body{
     background-color: #111010;
-}
-header{
+ }
+ header{
     border-bottom: 0.1rem solid var(--black);
     display: flex;
     height: 2.75rem;
     background-color: #23C146;
-
-}
-
-
-header picture{
+ 
+ 
+ }
+ 
+ 
+ 
+ 
+ header picture{
     margin-left: 0.5rem;
     padding: 0.5rem;
-}
-
-header picture img{
+ }
+ 
+ 
+ header picture img{
     height: 100%;
-}
-
-
-header nav{
+ }
+ 
+ 
+ 
+ 
+ header nav{
     display: flex;
     align-items: center;
     width: 100%;
-    justify-content: right;  
-}
-
-header ul img{
+    justify-content: right; 
+ }
+ 
+ header ul img{
     display: flex;
     align-items: center;
     width: 100%;
-}
+ }
+ 
+ 
+ main{
+    background-image: url(img/image\ 3.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: auto;
+    margin-top: 4rem;
+ }
+ 
+ 
+ main h1{
+    font-size: 2rem;
+    margin: 1rem;
+ }
+ 
+ 
+ main h2{
+    font-size: 2rem;
+    margin: 1rem;
+ }
+ 
+ 
+ main aside{
+    display: inline-block;
+    gap: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 0.25rem;
+ }
+ 
+ 
+ main aside img{
+    width:auto;
+    height: auto;
+    padding: 1rem;
+    padding-left: 5rem;
+    max-width: 17rem;
+    max-height: 17rem;
+ }
+ 
+ main div{
+    margin-bottom: 5rem;;
 
+ }
+
+ main div h3{
+    display: inline-block;
+ }
+ 
+ 
+ .nome1{
+    padding-left: 8rem;
+ }
+
+ .nome2{
+    padding-left: 12.1rem;
+ }
+
+ .nome3{
+    padding-left: 12.4rem;
+ }
+
+ .nome4{
+    padding-left: 9.7rem;
+ }
+
+ .nome5{
+    padding-left: 10rem;
+ }
+
+ .nome6{
+    padding-left: 10.5rem;
+
+ }
+ 
+ 
+ main section{
+    display:inline-block;
+    gap: 1rem;
+    padding-left: 1rem;
+ }
+ 
+ 
+ main section img{
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    padding-left: 5rem;
+    max-width: 17rem;
+    max-height: 17rem;
+ }
+ 
+ 
+ footer{
+    border-bottom: 0.1rem solid var(--black);
+    display: flex;
+    height: 1.5rem;
+    background-color: #23C146;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ }
+ 
