@@ -24,7 +24,10 @@ header picture ul{
 header picture ul li{
     text-align: left;
     margin-bottom: 5rem;
+    font-size: 18pt;
+    font-weight: bold;
 }
+
 
 header picture ul p{
     font-size: 1.5rem;
@@ -94,4 +97,13 @@ header picture input:checked ~ label{for="menu"}div.menu-hamburguer span.hamburg
     to{
         opacity: 1;
     }
+}
+
+header picture ul li:hover{
+    background-color: #4E4E4E;
+    cursor: pointer;
+}
+
+header picture ul li:checked{
+    text-decoration: underline;
 }
